@@ -1,0 +1,41 @@
+﻿name: Codeforces Automated Sync
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours automatically
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Codeforces Synchronizer
+        env:
+          CODEFORCES_HANDLE: "MetaryaJain"
+          GIT_COMMIT: "true"
+          OUTPUT_DIR: "problems"
+        run: |
+          git config --global user.name "Metarya Jain"
+          git config --global user.email "metaryajain07@gmail.com"
+          python codeforces_sync.py
+
+      - name: Push Commits to GitHub
+        run: |
+          git push origin main || echo "No new submissions to push"
