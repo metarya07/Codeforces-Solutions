@@ -6,7 +6,7 @@
  * Verdict: Accepted
  * Time: 265 ms
  * Memory: 800 KB
- * Submission Date: 2026-09-02 07:08:22 UTC
+ * Submission Date: 2026-09-02 07:08:26 UTC
  * Author: MetaryaJain
  */
 
