@@ -1,12 +1,12 @@
 /*
  * Codeforces Problem 4A: Watermelon
  * Problem URL: https://codeforces.com/contest/4/problem/A
- * Submission URL: https://codeforces.com/contest/4/submission/389162586
- * Solution #1 (Java 21)
+ * Submission URL: https://codeforces.com/contest/4/submission/389163749
+ * Solution #2 (Java 21)
  * Verdict: Accepted
- * Time: 500 ms
- * Memory: 1900 KB
- * Submitted At: 2026-09-02 06:21:16 UTC
+ * Time: 530 ms
+ * Memory: 900 KB
+ * Submitted At: 2026-09-02 06:36:03 UTC
  * Author: MetaryaJain
  */
 

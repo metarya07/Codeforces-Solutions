@@ -4,7 +4,7 @@
 
 [![Codeforces Profile](https://img.shields.io/badge/Codeforces-MetaryaJain-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/MetaryaJain)
 [![Total Solved](https://img.shields.io/badge/Problems%20Solved-2-blue?style=for-the-badge)](./problems)
-[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-2-brightgreen?style=for-the-badge)](./problems)
+[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-4-brightgreen?style=for-the-badge)](./problems)
 
 [![Div. 3 / Div. 4](https://img.shields.io/badge/Rating%20<%201200-2-28a745?style=flat-square)]()
 [![Div. 2](https://img.shields.io/badge/Rating%201200--1599-0-0077B5?style=flat-square)]()
@@ -30,11 +30,11 @@ An automated repository synchronizing all my Codeforces contest and practice sub
 
 | # | Problem Code | Problem Title | Rating | Solutions |
 | :---: | :---: | :--- | :---: | :--- |
-| 1 | `4A` | [Watermelon](./problems/0004A-watermelon) | ⭐ 800 | [`solution_1.java`](./problems/0004A-watermelon/solution_1.java) |
-| 2 | `71A` | [Way Too Long Words](./problems/0071A-way-too-long-words) | ⭐ 800 | [`solution_1.java`](./problems/0071A-way-too-long-words/solution_1.java) |
+| 1 | `4A` | [Watermelon](./problems/0004A-watermelon) | ⭐ 800 | [`solution_1.java`](./problems/0004A-watermelon/solution_1.java), [`solution_2.java`](./problems/0004A-watermelon/solution_2.java) |
+| 2 | `71A` | [Way Too Long Words](./problems/0071A-way-too-long-words) | ⭐ 800 | [`solution_1.java`](./problems/0071A-way-too-long-words/solution_1.java), [`solution_2.java`](./problems/0071A-way-too-long-words/solution_2.java) |
 
 ---
 
 <div align="center">
 <i>Automatically synchronized & maintained with ❤️ using Codeforces Auto Sync</i>
-</div>\n
+</div>
