@@ -1,32 +1,38 @@
 /*
  * Codeforces Problem 71A: Way Too Long Words
  * Problem URL: https://codeforces.com/contest/71/problem/A
- * Submission URL: https://codeforces.com/contest/71/submission/389164955
- * Solution #5 (Java 21)
+ * Submission URL: https://codeforces.com/contest/71/submission/389164619
+ * Solution #2 (Java 21)
  * Verdict: Accepted
- * Time: 281 ms
- * Memory: 1000 KB
- * Submission Date: 2026-09-02 07:10:09 UTC
+ * Time: 203 ms
+ * Memory: 1100 KB
+ * Submission Date: 2026-09-02 06:50:00 UTC
  * Author: MetaryaJain
  */
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Main {
-    // Helper method to process a single word
-    private static String abbreviate(String word) {
-        if (word.length() <= 10) {
-            return word;
-        }
-        return word.charAt(0) + String.valueOf(word.length() - 2) + word.charAt(word.length() - 1);
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+        int n = Integer.parseInt(br.readLine().trim());
+        
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < n; i++) {
-            System.out.println(abbreviate(sc.next()));
+            String word = br.readLine().trim();
+            int len = word.length();
+            
+            if (len > 10) {
+                sb.append(word.charAt(0))
+                  .append(len - 2)
+                  .append(word.charAt(len - 1))
+                  .append("\n");
+            } else {
+                sb.append(word).append("\n");
+            }
         }
+        System.out.print(sb);
     }
 }
