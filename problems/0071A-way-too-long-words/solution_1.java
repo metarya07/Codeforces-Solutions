@@ -1,12 +1,13 @@
 /*
- * Codeforces Problem 0A: Problem A
- * Problem URL: https://codeforces.com/contest/0/problem/A
- * Submission URL: https://codeforces.com/contest/0/submission/389164092
- * Solution #2 (Java 21 64bit)
+ * Codeforces Problem 71A: Way Too Long Words
+ * Problem URL: https://codeforces.com/contest/71/problem/A
+ * Submission URL: https://codeforces.com/contest/71/submission/389164092
+ * Solution #1 (Java 21)
  * Verdict: Accepted
  * Time: 171 ms
  * Memory: 600 KB
- * Submission Date: 2026-09-02 06:43:06 UTC
+ * Submitted At: 2026-09-02 06:42:53 UTC
+ * Author: MetaryaJain
  */
 
 import java.io.BufferedReader;
