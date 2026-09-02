@@ -1,12 +1,12 @@
-﻿# 🏆 Codeforces Solutions
+# 🏆 Codeforces Solutions
 
 <div align="center">
 
 [![Codeforces Profile](https://img.shields.io/badge/Codeforces-MetaryaJain-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/MetaryaJain)
-[![Total Solved](https://img.shields.io/badge/Problems%20Solved-0-blue?style=for-the-badge)](./problems)
-[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-0-brightgreen?style=for-the-badge)](./problems)
+[![Total Solved](https://img.shields.io/badge/Problems%20Solved-1-blue?style=for-the-badge)](./problems)
+[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-1-brightgreen?style=for-the-badge)](./problems)
 
-[![Div. 3 / Div. 4](https://img.shields.io/badge/Rating%20<%201200-0-28a745?style=flat-square)]()
+[![Div. 3 / Div. 4](https://img.shields.io/badge/Rating%20<%201200-1-28a745?style=flat-square)]()
 [![Div. 2](https://img.shields.io/badge/Rating%201200--1599-0-0077B5?style=flat-square)]()
 [![Div. 1](https://img.shields.io/badge/Rating%201600+-0-purple?style=flat-square)]()
 [![Automated Sync](https://img.shields.io/badge/Auto%20Sync-Active-success?style=flat-square&logo=githubactions&logoColor=white)]()
@@ -30,6 +30,7 @@ An automated repository synchronizing all my Codeforces contest and practice sub
 
 | # | Problem Code | Problem Title | Rating | Solutions |
 | :---: | :---: | :--- | :---: | :--- |
+| 1 | `4A` | [Watermelon](./problems/0004A-watermelon) | ⭐ 800 | [`solution_1.java`](./problems/0004A-watermelon/solution_1.java) |
 
 ---
 
