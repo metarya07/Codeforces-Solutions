@@ -13,4 +13,4 @@
 | 8 | [`solution_8.java`](./solution_8.java) | Java 21 | 281 ms | 1000 KB | 2026-09-02 |
 | 9 | [`solution_9.java`](./solution_9.java) | Java 21 | 171 ms | 600 KB | 2026-09-02 |
 | 10 | [`solution_10.java`](./solution_10.java) | Java 21 | 281 ms | 1000 KB | 2026-09-02 |
-| 11 | [`solution_11.java`](./solution_11.java) | Java 21 | 203 ms | 1100 KB | 2026-09-02 |
+| 11 | [`solution_11.java`](./solution_11.java) | Java 21 | 171 ms | 600 KB | 2026-09-02 |
