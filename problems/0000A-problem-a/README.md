@@ -7,3 +7,4 @@
 | # | File | Language | Time | Memory | Submitted At |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | [`solution_1.java`](./solution_1.java) | Java 21 64bit | 530 ms | 900 KB | 2026-09-02 |
+| 2 | [`solution_2.java`](./solution_2.java) | Java 21 64bit | 171 ms | 600 KB | 2026-09-02 |
