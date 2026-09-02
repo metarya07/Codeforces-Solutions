@@ -1,31 +1,32 @@
 /*
  * Codeforces Problem 71A: Way Too Long Words
  * Problem URL: https://codeforces.com/contest/71/problem/A
- * Submission URL: https://codeforces.com/contest/71/submission/389165344
+ * Submission URL: https://codeforces.com/contest/71/submission/389164955
  * Solution #10 (Java 21)
  * Verdict: Accepted
- * Time: 265 ms
- * Memory: 800 KB
- * Submission Date: 2026-09-02 08:10:36 UTC
+ * Time: 281 ms
+ * Memory: 1000 KB
+ * Submission Date: 2026-09-02 08:10:43 UTC
  * Author: MetaryaJain
  */
 
 import java.util.Scanner;
 
 public class Main {
+    // Helper method to process a single word
+    private static String abbreviate(String word) {
+        if (word.length() <= 10) {
+            return word;
+        }
+        return word.charAt(0) + String.valueOf(word.length() - 2) + word.charAt(word.length() - 1);
+    }
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        for (int i = 0; i < t; i++) {
-            char[] word = scanner.next().toCharArray();
-            int n = word.length;
-
-            if (n > 10) {
-                System.out.printf("%c%d%c%n", word[0], n - 2, word[n - 1]);
-            } else {
-                System.out.println(word);
-            }
+        for (int i = 0; i < n; i++) {
+            System.out.println(abbreviate(sc.next()));
         }
     }
 }
