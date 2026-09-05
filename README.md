@@ -3,8 +3,8 @@
 <div align="center">
 
 [![Codeforces Profile](https://img.shields.io/badge/Codeforces-MetaryaJain-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/MetaryaJain)
-[![Total Solved](https://img.shields.io/badge/Problems%20Solved-4-blue?style=for-the-badge)](./problems)
-[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-10-brightgreen?style=for-the-badge)](./problems)
+[![Total Solved](https://img.shields.io/badge/Problems%20Solved-5-blue?style=for-the-badge)](./problems)
+[![Total Submissions](https://img.shields.io/badge/Total%20Solutions-11-brightgreen?style=for-the-badge)](./problems)
 
 [![Div. 3 / Div. 4](https://img.shields.io/badge/Rating%20<%201200-3-28a745?style=flat-square)]()
 [![Div. 2](https://img.shields.io/badge/Rating%201200--1599-0-0077B5?style=flat-square)]()
@@ -32,8 +32,9 @@ An automated repository synchronizing all my Codeforces contest and practice sub
 | :---: | :---: | :--- | :---: | :--- |
 | 1 | `4A` | [Watermelon](./problems/0004A-watermelon) | ⭐ 800 | [`solution_1.java`](./problems/0004A-watermelon/solution_1.java), [`solution_2.java`](./problems/0004A-watermelon/solution_2.java), [`solution_3.java`](./problems/0004A-watermelon/solution_3.java) |
 | 2 | `71A` | [Way Too Long Words](./problems/0071A-way-too-long-words) | ⭐ 800 | [`solution_1.java`](./problems/0071A-way-too-long-words/solution_1.java), [`solution_2.java`](./problems/0071A-way-too-long-words/solution_2.java), [`solution_3.java`](./problems/0071A-way-too-long-words/solution_3.java), [`solution_4.java`](./problems/0071A-way-too-long-words/solution_4.java) |
-| 3 | `231A` | [Team](./problems/0231A-team) | ⭐ 800 | [`solution_1.java`](./problems/0231A-team/solution_1.java), [`solution_2.java`](./problems/0231A-team/solution_2.java) |
-| 4 | `282A` | [Bit++](./problems/0282A-bit) | ⭐ 800 | [`solution_1.java`](./problems/0282A-bit/solution_1.java) |
+| 3 | `158A` | [Next Round](./problems/0158A-next-round) | ⭐ 800 | [`solution_1.java`](./problems/0158A-next-round/solution_1.java) |
+| 4 | `231A` | [Team](./problems/0231A-team) | ⭐ 800 | [`solution_1.java`](./problems/0231A-team/solution_1.java), [`solution_2.java`](./problems/0231A-team/solution_2.java) |
+| 5 | `282A` | [Bit++](./problems/0282A-bit) | ⭐ 800 | [`solution_1.java`](./problems/0282A-bit/solution_1.java) |
 ---
 
 <div align="center">
